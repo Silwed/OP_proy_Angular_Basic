@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Nooa",
+        "last": "Wiitala"
+      },
+      "location": {
+        "street": {
+          "number": 2045,
+          "name": "Mechelininkatu"
+        },
+        "city": "Geta",
+        "state": "Central Finland",
+        "country": "Finland",
+        "postcode": 72422,
+        "coordinates": {
+          "latitude": "-22.4239",
+          "longitude": "-34.6257"
+        },
+        "timezone": {
+          "offset": "+5:45",
+          "description": "Kathmandu"
+        }
+      },
+      "email": "nooa.wiitala@example.com",
+      "login": {
+        "uuid": "afc3600b-33bb-46da-8c06-3b57067b6dae",
+        "username": "beautifulgoose278",
+        "password": "shock",
+        "salt": "omUUy2PH",
+        "md5": "f2ca8147b050279eee2e51bfcbb75092",
+        "sha1": "ba5e5ede63daf14f9535fea7e40556ce9941c81d",
+        "sha256": "653b9cf398c4726677bc7556416eb7e31e0b02200b029d35998f38a246639fc7"
+      },
+      "dob": {
+        "date": "1984-11-15T02:41:56.888Z",
+        "age": 38
+      },
+      "registered": {
+        "date": "2008-10-16T15:05:20.497Z",
+        "age": 14
+      },
+      "phone": "02-347-486",
+      "cell": "049-504-34-41",
+      "id": {
+        "name": "HETU",
+        "value": "NaNNA809undefined"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/45.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/45.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/45.jpg"
+      },
+      "nat": "FI"
+    }
+  ],
+  "info": {
+    "seed": "8e3c579ceec2a4f4",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

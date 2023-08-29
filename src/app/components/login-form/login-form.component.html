@@ -1,0 +1,40 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      <h4>Login</h4>
+      </mat-card-title>
+      <mat-card-subtitle>
+         Acceder a tu cuenta
+      </mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+    <form [formGroup]="loginForm" (submit)="submitLogin()">
+
+      <mat-form-field>
+        <input matInput placeholder="Email" formControlName="email">
+        <mat-error *ngIf="email?.errors?.['required'] && email?.touched">
+            El email es requerido
+        </mat-error>
+        <mat-error *ngIf="email?.errors?.['email'] && email?.touched">
+            El email no es válido
+      </mat-error>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput type="password" placeholder="Contraseña" formControlName="password">
+        <mat-error *ngIf="email?.errors?.['required'] && email?.touched">
+           el campo contraseña es requerido
+        </mat-error>
+        <mat-error *ngIf="email?.errors?.['minLength'] && email?.touched">
+            La contraseña debe tener al menos 6 caracteres
+      </mat-error>
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" type="submit" [disabled]="loginForm.invalid">Ingresar</button>
+
+    </form>
+
+  </mat-card-content>
+
+</mat-card>
